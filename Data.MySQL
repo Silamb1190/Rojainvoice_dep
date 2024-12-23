@@ -1,0 +1,7 @@
+CREATE TABLE invoices (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    vendor_name VARCHAR(255),
+    invoice_date DATE,
+    amount DECIMAL(10, 2),
+    extracted_text TEXT
+);
