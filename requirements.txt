@@ -2,3 +2,4 @@ pytesseract
 pillow
 pdfplumber
 gunicorn
+Flask
